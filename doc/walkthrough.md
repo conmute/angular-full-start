@@ -6,11 +6,11 @@
 
 ## Planned
 
-* [x] Use (Universal starter)[https://github.com/angular/universal-starter.git] project as an example
+* [x] Use [Universal starter](https://github.com/angular/universal-starter.git) project as an example
   * [ ] New Files
+    * [ ] `./.angular-cli.json` - Angular CLI configuration for client application and server
     * [ ] `./server.ts` - server script that runs Angular Universal and express-engine stuff
     * [ ] `./prerender.ts` - script that prerenders configured routes for faster server response
-    * [ ] `./.angular-cli.json` - Angular CLI configuration for client application and server
     * [ ] `./webpack.server.config.js` - Webpack configuration to build the server bundle
     * [ ] `./static.paths.ts` - List of paths for prerenderer script
     * [ ] `./src/tsconfig.app.json` - typescript config for client app
