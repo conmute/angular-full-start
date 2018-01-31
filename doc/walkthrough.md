@@ -2,7 +2,11 @@
 
 ## Done
 
-* [x] Create new project `ng new full-start`
+1. [x] Create new project `ng new full-start`
+1. [x] Use [Universal starter](https://github.com/angular/universal-starter.git) project as an example
+   1. [x] An application source
+      1. [x] Routes and Navigation
+      1. [x] Lazy module loading
 
 ## Planned
 
@@ -17,8 +21,6 @@
     * [ ] `./src/tsconfig.server.json` - typescript config for server-universal app
     * [ ] `./src/main.server.ts` - server runner
     * [ ] `./src/app/app.server.module.ts` - server runner
-  * [ ] An application source
-    * [ ] Lazy module loading
 * [ ] Create folder configuration files `./conf`
 * [ ] Prepare e2e tests cases
 * [ ] Prepare integration tests of multiple modules
