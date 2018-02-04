@@ -16,10 +16,12 @@
       1. [x] `./server.ts` - server script that runs Angular Universal and express-engine stuff
       1. [x] `./prerender.ts` - script that prerenders configured routes for faster server response
       1. [x] `./static.paths.ts` - List of paths for prerenderer script
+   1. [x] Create folder configuration files `./conf`, files to process:
+      1. [x] `static.paths.ts` - list of static files for prerender script runner
+      1. [x] `environments` - env files
 
 ## Planned
 
-* [ ] Create folder configuration files `./conf`
 * [ ] Prepare e2e tests cases
 * [ ] Prepare integration tests of multiple modules
 * [ ] Prepare unit tests

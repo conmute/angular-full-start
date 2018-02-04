@@ -22,10 +22,10 @@
         "styles.css"
       ],
       "scripts": [],
-      "environmentSource": "environments/environment.ts",
+      "environmentSource": "conf/environment.ts",
       "environments": {
-        "dev": "environments/environment.ts",
-        "prod": "environments/environment.prod.ts"
+        "dev": "conf/environment.ts",
+        "prod": "conf/environment.prod.ts"
       }
     },
     {
@@ -46,10 +46,10 @@
         "styles.css"
       ],
       "scripts": [],
-      "environmentSource": "environments/environment.ts",
+      "environmentSource": "conf/environment.ts",
       "environments": {
-        "dev": "environments/environment.ts",
-        "prod": "environments/environment.prod.ts"
+        "dev": "conf/environment.ts",
+        "prod": "conf/environment.prod.ts"
       }
     }
   ],

@@ -11,9 +11,9 @@
     "e2e": "ng e2e",
     "build:prod:server": "ng build --app 1 --prod --output-hashing=false",
     "build:prod:browser": "ng build --app 0 --prod",
-    "build:runners": "webpack --config runners.webpack.config.js --progress --colors",
+    "build:scripts": "webpack --config scripts.webpack.config.js --progress --colors",
     "build:prod":
-      "npm run build:prod:server && npm run build:prod:browser && npm run build:runners",
+      "npm run build:prod:server && npm run build:prod:browser && npm run build:scripts",
     "run:server": "node dist/server",
     "generate:prerender": "cd dist && node prerender"
   },
