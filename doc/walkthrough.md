@@ -19,14 +19,15 @@
    1. [x] Create folder configuration files `./conf`, files to process:
       1. [x] `static.paths.ts` - list of static files for prerender script runner
       1. [x] `environments` - env files
+   1. [x] Make tests work
+      1. [x] e2e
+      1. [x] unit
 
 ## Planned
 
-* [ ] Prepare e2e tests cases
-* [ ] Prepare integration tests of multiple modules
-* [ ] Prepare unit tests
-* [ ] One command for build and run process
-* [ ] One command for development process
-  * [ ] Client app
-  * [ ] Server app
-  * [ ] e2e/integration/unit tests on changee
+1. [ ] Configure development cycle
+   1. [ ] One command for build and run process
+   1. [ ] One command for development process
+      1. [ ] Client app
+      1. [ ] Server app
+      1. [ ] e2e/integration/unit tests on changee
